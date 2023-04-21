@@ -1,6 +1,6 @@
+use minigrep::Config;
 use std::env;
 use std::process;
-use minigrep::Config;
 
 // cargo run to src/poem.txt
 // CASE_INSENSITIVE=1 cargo run to src/poem.txt
@@ -17,5 +17,4 @@ fn main() {
         eprintln!("Application error: {}", e);
         process::exit(1);
     }
-
 }
